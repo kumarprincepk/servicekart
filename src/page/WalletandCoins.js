@@ -14,6 +14,13 @@ export default function WalletandCoins() {
             <div className="coins d-flex">
                 <img src={coins} className='ms-5 me-3' alt="" />
                 <h5 className='fw-bold'>Servicekart&nbsp;Coins</h5>
+                <h5 className='fw-bold'>Servicekart&nbsp;Coins</h5>
+                <h5 className='fw-bold'>Servicekart&nbsp;Coins</h5>
+                <h5 className='fw-bold'>Servicekart&nbsp;Coins</h5>
+                <h5 className='fw-bold'>Servicekart&nbsp;Coins</h5>
+                <h5 className='fw-bold'>Servicekart&nbsp;Coins</h5>
+                <h5 className='fw-bold'>Servicekart&nbsp;Coins</h5>
+
             </div>
         </div>
     </>
