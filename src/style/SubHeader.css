@@ -1,0 +1,289 @@
+.topsubheader{
+    /* margin-left: 11rem;
+    margin-right: 9rem; */
+}
+.mainsubheader{
+    padding: .5rem 3rem .5rem 3rem;
+    align-items: center;
+}
+.headeritem{
+    cursor: pointer;
+    padding-top: .5rem;
+}
+.itemsofhead{
+    margin-right: 1rem;
+}
+
+
+/* ########  Edit Profile ############ */
+.editprofile, .faq{
+    margin-bottom: 9rem;
+}
+.editprofileinput{
+    background-color: #F8F8F8;
+    margin-bottom: 1.8rem;
+    border-radius: 2rem;
+    border: 1px solid #F2F2F2;
+    padding: .8rem 1rem .8rem 1.8rem;
+    height: 3rem;
+    width: 20.5rem;
+    border: none;
+    outline: none;
+}
+.saveprofile{
+    border-radius: 2rem;
+    padding: .4rem 1.8rem .5rem 1.8rem;
+    height: 2.5rem;
+    width: 10rem;
+    border: 1px solid #1877F2;
+    outline: none;
+    background-color: white;
+}
+
+/* ############ My Address ############# */
+
+.myaddress,.savedcard{
+    margin-bottom: 19rem;
+}
+.myaddressbtn{
+    background-color: #1877F2;
+    margin-bottom: 2rem;
+    border-radius: 2rem;
+    padding: .4rem 1rem .8rem 1rem;
+    color: white;
+    height: 2.5rem;
+    width: 10rem;
+    border: none;
+    outline: none;
+}
+.topmainmyaddress{
+    padding: 0rem 10rem 0rem 11rem;
+}
+.myaddresscard{
+    margin-left: 1rem;
+    height: 9.813rem;
+    width: 29.813rem;
+    box-shadow: 1px 1px 3px rgb(184, 155, 155);
+}
+.myaddunderline{
+    height: .3rem;
+    width: 3rem;
+    background-color: #1877F2;
+    margin-top: .6rem;
+    border-radius: 2rem;
+}
+.myaddbtn{
+    background-color: #1877F2;
+    margin-bottom: 2rem;
+    border-radius: 2rem;
+    font-size: 12px;
+    margin-top: 1rem;
+    color: white;
+    height: 1.5rem;
+    width: 3.813rem;
+    border: none;
+    outline: none;
+    margin-right: 22rem;
+}
+.myaddcardinner{
+    padding-left: 1rem;
+}
+.addmargin{
+    margin-top: -1.5rem;
+}
+.phonemargin{
+    margin-top: -.7rem;
+}
+
+/* ########### Saved Cards ########### */
+
+.savefirst{
+    margin-top: 1rem;
+}
+.cardnumber{
+    margin-right: 1rem;
+}
+.cardvisa{
+    margin-left: 14rem;
+}
+.cardtext{
+    margin-top: 3rem;
+    margin-right: 1rem;
+}
+.cardtext>h6{
+    font-size: 0.75rem;
+}
+.cardholder{
+    margin-right: 1rem;
+
+}
+.cardholder>h5{
+    font-size: 1rem;
+}
+
+/* ########## FAQ ############ */
+
+
+.inputfaq{
+    background-color: #F8F8F8;
+    /* margin-bottom: 1.8rem; */
+    margin-top: 1rem;
+    margin-left: -.5rem;
+    border-radius: 2rem;
+    border: 1px solid #F2F2F2;
+    padding: .8rem 1rem .8rem 2.8rem;
+    height: 3rem;
+    width: 34.563rem;
+    border: none;
+    outline: none;
+}
+.searchiconfaq{
+    position: relative;
+    left: 2rem;
+}
+.faqheading{
+    font-weight: bold;
+    margin-top: 1rem;
+    font-size: 1.125rem;
+}
+
+
+/* ########### Setting ########### */
+/*  */
+.topmainsetting{
+    padding: 0rem 0rem 0rem 11rem;
+
+}
+.rightsettingbtn, .leftsettingbtn{
+    width: 36.25rem;
+    height: 22.875rem;
+}
+.buttonsettingpro{
+    width: 25.125rem;
+    height: 3.25rem;
+    /* margin-bottom: 2rem; */
+    margin: 1.5rem 0rem 0rem 0rem;
+    border-radius: .2rem;
+    padding: .8rem 1rem .8rem 1.8rem;
+    height: 3rem;
+    width: 20.5rem;
+    border: none;
+    outline: none;
+}
+/* .buttonsettingpro:hover{
+    background-color: #1877F2;
+    color: white;
+    
+} */
+.active{
+    background-color: #1877F2;
+    color: white;
+}
+.verline{
+    height: 45rem;
+    width: .1rem;
+    border-radius: 2rem;
+    background-color: #ccc4c4;
+    margin: 2rem 0rem 2rem -5rem;
+}
+.rightsettingbtn{
+    padding-top: 3.8rem;
+}
+.settinginputbox{
+    background-color: #F8F8F8;
+    margin:0rem .8rem 1.8rem 0rem;
+    border-radius: 2rem;
+    border: 1px solid #F2F2F2;
+    padding: .8rem 1rem .8rem 1.8rem;
+    height: 3rem;
+    width: 17.625rem;
+    border: none;
+    outline: none;
+}
+.settingmessage{
+    width: 34.25rem; 
+    padding: .8rem 1rem .8rem 1.8rem;
+    background-color: #F8F8F8;
+    height: 6.625rem;
+    border-radius: .5rem;
+    border: 1px solid #F2F2F2;
+    border: none;
+    outline: none;
+    margin: 0;
+}
+.lorem1{
+    margin-left: 2rem;
+    /* width: 36.25rem; */
+    /* height: 22.875rem; */
+}
+.contectsetting{
+    padding-left: 1rem;
+    /* margin-left: 2rem; */
+
+}
+.settingsend{
+    background-color: #1877F2;
+    margin: 2rem 0rem 2rem 0rem;
+    border-radius: 2rem;
+    padding: .4rem 1rem .4rem 1rem;
+    color: white;
+    height: 2.5rem;
+    width: 10rem;
+    border: none;
+    outline: none;
+}
+.setofficeaddress{
+    background-color: #1877F2;
+    color: white;
+    width: 34.25rem;
+    height: 15.125rem;
+    padding: 1.188rem 2.563rem 1.688rem 2.125rem;
+    border-radius: .5rem;
+}
+.officeparaset{
+    font-size: 0.75rem;
+}
+.whitemyaddress{
+    margin-right: .5rem;
+      height: 1.5rem;
+}
+
+/* ######### Add Address ############ */
+.addaddressmain{
+    margin-bottom: 7rem;
+}
+.addressimg{
+    height: 22.188rem;
+    width: 30.625rem;
+}
+.addressinputs{
+    margin-left: 2rem;
+}
+.inputaddressadd{
+    background-color: #F8F8F8;
+    margin-bottom: .8rem;
+    border-radius: 2rem;
+    border: 1px solid #F2F2F2;
+    padding: .8rem 1rem .8rem 1.8rem;
+    height: 3rem;
+    width: 27.688rem;
+    border: none;
+    outline: none;
+}
+.inaddress{
+    margin: .5rem .9rem 0rem .5rem;
+}
+.saveaddressbtn{
+    background-color: #1877F2;
+    margin-top: 3rem;
+    border-radius: 2rem;
+    padding: .4rem 1rem .8rem 1rem;
+    color: white;
+    height: 2.5rem;
+    width: 10rem;
+    border: none;
+    outline: none;
+}
+
+/* ########### Add Card ########### */
+

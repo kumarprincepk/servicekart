@@ -1,0 +1,15 @@
+.mains{
+    justify-content: center;
+
+}
+.milk{
+    width: 13rem;
+    height: 10rem;
+    border: 0px solid black;
+    box-shadow: 1px 1px 5px 2px #888888;
+    background-color: rgb(251, 252, 252);
+}
+.milk>img{
+    width: 6rem;
+    height: 6rem;
+}

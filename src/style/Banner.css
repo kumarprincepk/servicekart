@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.mainClass{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+}
+.offer>h1{
+    
+    font-size: 2.5rem;
+    font-weight: bold;
+    
+}
+.offer>p{
+    width: 5rem;
+    /* height: .8rem; */
+    border: .3rem solid #1877F2 ;
+    border-radius: 3rem;
+    /* margin-left: 45rem; */
+    margin: auto;
+}
+.image>img{
+    margin-bottom: 1rem;
+    width: 100%;
+    /* height: 25rem; */
+}
+.slots{}
+.card{
+    width: 25rem;
+    height: 23rem;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    box-shadow: .1rem  .1rem 8px .1rem #888888
+}
+.hand>img{
+    height: 6rem;
+    margin: .8rem;
+}
+.hand>h6{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: .5rem;
+}
+.hand>p{
+    margin-top: 1rem;
+    font-size: 1rem;
+    color: #A6ADB4;
+}
+.words{
+    text-align: start;
+    color: #FFFFFF;
+}
+.words>h1{
+    font-weight: bold;
+}
+.words>p{
+    font-size: 1rem;
+}
+.banner4{
+    margin: 5rem 0rem 0rem -7rem;
+    background-image: url('../assets/banners/banner4.png');
+    background-repeat: no-repeat;
+    height: 21rem;
+    width: 98.9vw;
+}
+.bnt{
+    border: none;
+    padding: .5rem 1.2rem .5rem 1.2rem;
+    border-radius: 20px;
+    color: #1877F2;
+    background-color: #FFFFFF;
+
+}
+.bnt:hover{
+    background: transparent;
+    color: white;
+    border: 1px solid #FFFFFF;
+}
+
+/* ######## swiper ######## */
+
+.scard{
+    width: 23rem;
+    height: 22rem;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 1px 2px 8px 1px #888888;
+    margin-bottom: 3rem;
+    margin-top: 2rem;
+}
+.sidebar{
+    text-align: start;
+    
+}
+.sideimage{
+    width: 3rem;
+    position: relative;
+    top: 1rem;
+    right: 3.4rem;
+    border-radius: 2rem;
+}
+.name{
+    margin-top: -4.5rem;
+}
+.name>h3{
+    color: #1877F2;
+    font-weight: bold;
+
+}
+.name>p{
+    color: #000000;
+    font-size: 12px;
+    margin-top: -.5rem;
+    margin-right: 1.7rem;
+}
+.star{
+    margin-top: -1rem;
+    margin-right: 1.8rem;
+    color: #F6DA07;
+}
+.text{
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+}
+.date{
+    margin-left: 1.5rem;
+}
+.date>span{
+    margin-left: 1rem;
+    font-weight: bold;
+}
+
+
+/* ###### Landing Page############ */
+
+.btnstyle{
+    margin: 3rem;
+    text-align: center;
+}
+.btnstyle>button{
+    font-size: 1rem;
+    border-radius: 5rem;
+    padding: .5rem 2rem .5rem 2rem;
+}

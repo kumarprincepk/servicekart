@@ -1,0 +1,231 @@
+.center{
+    width: 80vw;
+}
+.twoitem{
+    display: flex;
+    border-bottom: 3px solid #1877F2;
+}
+.butto{
+    border: none;
+    width: 80vw;
+    padding: 1rem 0rem 1rem 5rem;
+}
+
+
+
+
+/* categories css */
+.class{
+    width: 70vw;
+    display: flex;
+    flex-wrap: wrap;
+}
+.categorie{
+    align-items: flex-start;
+    width: 15rem;
+    height: 4rem;
+    border: 2px solid rgb(249, 247, 247);
+}
+.subcategories>p{
+    margin-top: .7rem;
+    font-weight: bold;
+}
+.subcategories>img {
+    margin-right: 2rem;
+    width: 4rem;
+}
+.itemfull{
+    width: 50vw;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.iconsearch{
+    position: relative;
+    left: 1.5rem;
+}
+.insearch{
+    margin-top: 1rem;
+    width: 25rem;
+    padding: .5rem 1rem .5rem 2rem;
+    align-items: center;
+    border: 1px solid #F2F2F2;
+    border-radius: 50px;
+    outline: none;
+    background-color: #F8F8F8;
+
+}
+
+
+
+/* item css */
+
+
+.mainitem{
+    width: 25.063rem;
+    height: 9.5rem;
+    padding: .5rem;
+    box-shadow: 1px 1px 3px rgb(184, 155, 155);
+    /* display: flex;
+    flex-wrap: wrap; */
+}
+.imgtext {
+    display: flex;
+    gap: 1rem;
+}
+.carditem2{
+    /* margin-top: .6rem; */
+    display: flex;
+    justify-content: space-between;
+}
+.imgtext>img{
+    width:4.875rem;
+    height: 5.688rem;
+}
+.textitem>h5{
+    font-size: 1.375rem;
+    font-weight: 600;
+}
+.pnumber{
+    color: #1877F2;
+font-weight: bold;
+font-size: 1.18rem;
+margin-top: .6rem;
+}
+.addsub>button{
+    border-radius: 1rem;
+    margin: .2rem;
+    /* padding: .rem; */
+}
+.addbtn{
+    width: 6.125rem;
+}
+
+/* ###### StoreDteailparts####### */
+
+
+.carddetails{
+    width: 25.813rem;
+    height: 4.625rem;
+    padding: .8rem;
+    box-shadow: 1px 1px 3px rgb(184, 155, 155);
+    margin: 1rem 2rem 0rem 0rem;
+}
+.cardandimage{
+    /* margin: 1rem 2rem 2rem 2rem; */
+}
+.headtext>h3{
+    font-size: 1.375rem;
+    font-weight: bold;
+}
+.cardpartimage>img{
+    /* width: 2.938rem; */
+    height: 2.938rem;
+}
+.cardparttext>p{
+    font-size: 0.75rem;
+}
+.cardimage{
+    width: 49.625rem;
+    height: 32.938rem;
+    margin-top: 1rem;
+}
+
+
+/* ####### Header2 ######### */
+
+.submainheader{
+    padding: 0rem 3rem 0rem 3rem;
+}
+
+/* ##### Categories ########### */
+
+.categoriesrmargin{
+    padding-bottom: 4rem;
+}
+
+
+/* ########## Store Detail Items One ########## */
+
+.storedetailstyle{
+    padding: 2rem 0rem 3rem 0rem;
+}
+
+/* ######## Product Modal css ########### */
+.wholemodal{
+    
+}
+.mainmodal{
+    gap: .7rem;
+}
+.mainmodal>img{
+    height: 1.8rem;
+}
+.modalitem{
+    width: 28.063rem;
+    height: 6.5rem;
+    padding: .5rem;
+    box-shadow: 1px 1px 3px rgb(184, 155, 155);
+}
+
+.submainmodel{
+    width: 32.125rem;
+    height: 21.563rem;
+    padding: .5rem;
+    box-shadow: 1px 1px 3px rgb(184, 155, 155);
+}
+.modalimgtext>img{
+    width:4.43rem;
+    height: 5.25rem;
+    margin-right: 1rem;
+}
+.modalcarditem2{
+    width: 7rem;
+    height: auto;
+}
+.modaladdbtn{
+    border-radius: 1rem;
+    margin: .2rem;
+    width: 6.125rem;
+    border: 1px solid #F2F2F2;
+}
+.modaladdbtn>button{
+    padding: 0rem .2rem 0rem .5rem;
+    border: none;
+    background-color: #fff;
+}
+.countnum{
+    padding: 0rem .2rem 0rem .5rem;
+}
+.textandinput{
+    margin: .7rem auto auto 1.6rem;
+}
+.textandinput>h5{
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+.modalinputradio{
+    margin-right: 5rem;
+}
+.modaladdtobtn{
+    margin-top: 4rem;
+    text-align: center;
+}
+.modaladdtobtn>button{
+    padding: .5rem 2rem .5em 2rem;
+    border-radius: 2rem;
+}
+
+.modalsize{
+    background-color:#7F82841a;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100vw;
+    height: 100vh;
+    padding: 13% 0% 0% 33%;
+}
+.productcrossimg{
+    cursor: pointer;
+}

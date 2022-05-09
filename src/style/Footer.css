@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.topfooter{
+    
+}
+.long-image{
+    display: flex;
+    /* width: 1920px; */
+    /* height: 502px; */
+    height: 460px;
+    background-image: url("../assets/footer/bg-img.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 0rem 2.3rem 10px 7.8rem;
+    overflow: hidden;
+}
+
+.heading>h1{
+    font-size: 32px;
+    font-weight: bold;
+}
+.heading>p{
+    font-weight: 12px;
+}
+.check>li{
+    display: flex;
+    line-height: 2rem;
+
+}
+
+.sword{
+    margin-left: 20px;  
+    font-size: 1rem;
+}
+
+.gplay>img{
+    width: 200px;
+height: 59px;
+margin-top: 30px;
+cursor: pointer;
+}
+
+.right_side{
+    margin-bottom: 250px;
+}
+
+.top{
+    position: sticky;
+    top: 30rem;
+    cursor: pointer;
+}
+
+
+/* ###### Footer css   ######### */
+.footer-main{
+    padding-top: 10px;
+    background-color: #F6DA07;
+    
+}
+.container{
+    margin-top: 10px;
+}
+.box{
+    display: flex;
+    position: relative;
+    width: 450px;
+    height: 88px;
+    margin-left: 20px;
+    border-radius: 6px;
+}
+.box>img{
+    border-radius: 50%;
+    background: #000;
+    width: 46px;
+    height: 46px;
+}
+.box>p>span{
+    font-size: 20px;
+}
+.box>p{
+    padding-left: 10px;
+    font-size: 16px;
+}
+.compnay{
+    margin:0rem 3rem 0rem 1.4rem;
+}
+.list{
+    margin-top: 15px;
+
+}
+.list>li{
+    display: flex;
+    line-height: 2.5rem;
+    font-size: 20px;
+}
+.list>li > img{
+    width: 46px;
+    height: 46px;
+    margin-right: 25px;
+    margin-top: 10px;
+}
+.care{
+    margin-top: 8px;
+}
+.head>h6{
+    font-weight: bold;
+    font-size: 24px;
+}
+.line{
+    width: 1.9rem;
+    height: 3px;
+    background-color: #1877F2;
+}
+.left{
+    margin-left: 20px;
+}
+.right{
+    margin-right: 20px;
+}
+.left>h5 , .right>h5{
+    font-size: 24px;
+    font-weight: bold;
+}
+.socal>img{
+    width: 29px;
+    height: 29px;
+    margin-right: 10px;
+}
+.socal>img{
+    margin-top: 10px;
+}
+.right>img{
+    margin-top: 10px;
+}
+.sentenc{
+    font-size: 20px;
+}
+.last{
+    margin: 0px 30px 0px 30px;
+}
+
