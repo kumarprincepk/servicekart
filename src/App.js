@@ -27,7 +27,7 @@ import WalletandCoins from './page/WalletandCoins';
 function App() {
   return (
     <>
-     {/* <BrowserRouter>
+     <BrowserRouter>
       <Routes>
           <Route index element={<LandingPage />} />
         <Route path="/Profile" element={<EditProfile />}/>
@@ -41,7 +41,7 @@ function App() {
         
       </Routes>
       <Footer/>
-    </BrowserRouter> */}
+    </BrowserRouter>
 
     {/* <OrderDetailsCompo/> */}
     {/* <OrderDetails/> */}
@@ -51,7 +51,7 @@ function App() {
     {/* <Payment/> */}
     {/* <AddAddress/> */}
     {/* <AddCard/> */}
-    <WalletandCoins/>
+    {/* <WalletandCoins/> */}
 
       {/* <OrderSuccessfullModal/> */}
       {/* <CancelOrderModal/> */}
