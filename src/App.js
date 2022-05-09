@@ -38,7 +38,6 @@ function App() {
           <Route path="/SavedCards/Add-Card" element={<AddCard />} />
           <Route path="/FAQ" element={<Faq />} />
           <Route path="/Settings" element={<Setting />} />
-        
       </Routes>
       <Footer/>
     </BrowserRouter>
